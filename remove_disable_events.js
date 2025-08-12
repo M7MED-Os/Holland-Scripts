@@ -1,0 +1,1 @@
+javascript:(function(){const disabledButton=document.querySelector('button[disabled]');if(disabledButton){disabledButton.removeAttribute('disabled');disabledButton.classList.remove('mat-mdc-button-disabled');disabledButton.style.pointerEvents='auto';disabledButton.style.opacity='1';}else{alert("لا يوجد زر معطّل في الصفحة.");}})();
